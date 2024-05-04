@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638473212814871313
-    m_Hash: 3585480532
+      ticks: 638504143817763739
+    m_Hash: 404461029
   m_LockFileStatus:
     m_FilePath: C:/Users/kamil/Projekt/ProjektZaliczeniowy/FirstGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638473213329369694
-    m_Hash: 1983639373
+      ticks: 638504143817768777
+    m_Hash: 568519726
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -537,6 +537,7 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.4.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -556,6 +557,7 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.4.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -989,6 +991,7 @@ m_ResolvedPackages:
     - 1.0.0
     - 3.0.0-exp.1
     - 3.0.0-exp.3
+    - 3.0.0-exp.4
     compatible:
     - 1.0.0
     recommended: 1.0.0
@@ -1085,9 +1088,11 @@ m_ResolvedPackages:
     - 1.9.0
     - 1.9.1
     - 1.9.2
+    - 1.9.4
     compatible:
     - 1.9.2
-    recommended: 1.9.2
+    - 1.9.4
+    recommended: 1.9.4
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -3497,6 +3502,7 @@ m_ResolvedPackages:
     - 9.0.0
     - 9.0.1
     - 9.0.2
+    - 9.0.3
     compatible:
     - 8.0.4
     recommended: 8.0.4
@@ -3728,6 +3734,7 @@ m_ResolvedPackages:
     - 10.0.1
     - 10.0.2
     - 10.0.3
+    - 10.0.4
     compatible:
     - 9.0.2
     recommended: 9.0.2
@@ -4024,10 +4031,12 @@ m_ResolvedPackages:
     - 1.1.0
     - 1.1.1
     - 1.1.2
+    - 1.1.3
     compatible:
     - 1.1.1
     - 1.1.2
-    recommended: 1.1.2
+    - 1.1.3
+    recommended: 1.1.3
     deprecated: []
   dependencies:
   - name: com.unity.2d.sprite
@@ -4385,6 +4394,7 @@ m_ResolvedPackages:
     - 2.4.0-pre.2
     - 2.4.0-pre.5
     - 2.4.0
+    - 2.4.1
     compatible:
     - 1.2.4
     - 1.3.1
@@ -4405,6 +4415,7 @@ m_ResolvedPackages:
     - 2.4.0-pre.2
     - 2.4.0-pre.5
     - 2.4.0
+    - 2.4.1
     recommended: 1.2.4
     deprecated: []
   dependencies:
@@ -4604,10 +4615,12 @@ m_ResolvedPackages:
     - 1.8.11
     - 1.8.12
     - 1.8.13
+    - 1.8.14
     compatible:
     - 1.8.12
     - 1.8.13
-    recommended: 1.8.13
+    - 1.8.14
+    recommended: 1.8.14
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
