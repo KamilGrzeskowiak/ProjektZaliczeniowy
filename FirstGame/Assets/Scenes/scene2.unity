@@ -1142,6 +1142,7 @@ MonoBehaviour:
   target: {fileID: 2087767386}
   followSpeed: 5
   horizontalOffset: 0
+  stopXPosition: 10
 --- !u!81 &434116503
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1483,6 +1484,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 72474707530093702, guid: b413f6d7478095a43994b89cdb287415, type: 3}
+      propertyPath: leftBoundary
+      value: -1.23
+      objectReference: {fileID: 0}
     - target: {fileID: 3522984642982678990, guid: b413f6d7478095a43994b89cdb287415, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.22
