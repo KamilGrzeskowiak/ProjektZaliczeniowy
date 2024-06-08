@@ -31,7 +31,6 @@ public class Attack : MonoBehaviour
         }
     }
 
-    // Metoda rysuj¹ca zasiêg ataku w edytorze Unity
     private void OnDrawGizmosSelected()
     {
         if (attackPoint == null)
