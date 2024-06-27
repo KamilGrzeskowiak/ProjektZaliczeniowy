@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EndCredits : MonoBehaviour
+public class SceneChanger : MonoBehaviour
 {
-    public Animator animator;
+    public float delay = 5f;
     public string nextSceneName;
 
-    void Update()
+    void Start()
     {
-        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("CreditsAnimation") ||
-            animator.GetCurrentAnimatorStateInfo(0).normalizedTime >= 1.0f)
-        {
-            SceneManager.LoadScene(nextSceneName);
-        }
+        Invoke("ChangeScene", delay);
+    }
+
+    void ChangeScene()
+    {
+        SceneManager.LoadScene(nextSceneName);
     }
 }

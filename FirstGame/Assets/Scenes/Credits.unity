@@ -294,9 +294,8 @@ GameObject:
   - component: {fileID: 1471063470}
   - component: {fileID: 1471063472}
   - component: {fileID: 1471063471}
-  - component: {fileID: 1471063474}
-  - component: {fileID: 1471063473}
   - component: {fileID: 1471063475}
+  - component: {fileID: 1471063473}
   m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -320,8 +319,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -454}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0, y: -916}
+  m_SizeDelta: {x: 200, y: 987.1978}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1471063471
 MonoBehaviour:
@@ -437,21 +436,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a2f47a4f24181b4bbe0821377f9f3d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  delay: 25
   nextSceneName: Menu
---- !u!114 &1471063474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1471063469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 037ff15e998e64b4b881a9d23aad0ed5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scrollSpeed: 40
 --- !u!95 &1471063475
 Animator:
   serializedVersion: 5
@@ -462,7 +448,7 @@ Animator:
   m_GameObject: {fileID: 1471063469}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d3b7d66596e4cfd4283a987e758fc924, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
