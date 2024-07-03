@@ -14,6 +14,8 @@ public class Enemy : MonoBehaviour
     public float attackDelay = 0.5f;
     public float attackCooldown = 1.5f;
     public LayerMask playerLayer;
+    public AudioClip attackSound;
+    private AudioSource audioSource;
 
     private bool isAttacking = false;
     private float lastAttackTime = -Mathf.Infinity;
@@ -23,6 +25,8 @@ public class Enemy : MonoBehaviour
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
         animator.SetTrigger("Idle");
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = attackSound;
     }
 
     void Update()
@@ -33,6 +37,7 @@ public class Enemy : MonoBehaviour
 
             if (player != null && !isAttacking)
             {
+                PlayAttackSound();
                 StartCoroutine(Attack(player));
             }
         }
@@ -79,5 +84,12 @@ public class Enemy : MonoBehaviour
 
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+    void PlayAttackSound()
+    {
+        if (attackSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(attackSound);
+        }
     }
 }

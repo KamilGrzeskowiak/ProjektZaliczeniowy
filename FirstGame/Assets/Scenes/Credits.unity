@@ -159,7 +159,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -319,7 +319,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -916}
+  m_AnchoredPosition: {x: 0, y: 935}
   m_SizeDelta: {x: 200, y: 987.1978}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1471063471
@@ -342,12 +342,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Assets\n\n\nMain Character - Szadi art\nhttps://szadiart.itch.io/2d-soulslike-character\n\nDark
-    Forest - Szadi art\nhttps://szadiart.itch.io/pixel-dark-forest\n\nSceleton -
-    Szadi art\nhttps://szadiart.itch.io/hero-and-opponents-animation\n\nCastle -
-    Szadi art\nhttps://szadiart.itch.io/pixle-castle-2d\n\nMenu Buttons - \xDAltimo
-    Level Studio\nhttps://ultimolevel.itch.io/menu-mini-pack\n\n\nSound\n\n\nUI Soundpack
-    - Ellr\nhttps://ellr.itch.io/universal-ui-soundpack"
+  m_text: "Game made by:\n\n\nKamil Grze\u015Bkowiak\n\n\nAssets\n\n\nMain Character
+    - Szadi art\nhttps://szadiart.itch.io/2d-soulslike-character\n\nDark Forest -
+    Szadi art\nhttps://szadiart.itch.io/pixel-dark-forest\n\nSceleton - Szadi art\nhttps://szadiart.itch.io/hero-and-opponents-animation\n\nCastle
+    - Szadi art\nhttps://szadiart.itch.io/pixle-castle-2d\n\n\n\nSound\n\n\nSword
+    Sound Effect from\n  https://pixabay.com/sound-effects/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=36274\n\n\nUI
+    Soundpack - Ellr\nhttps://ellr.itch.io/universal-ui-soundpack\n\n\nMusic\n\n\n\"Behind
+    the Sword\" by Alexander Nakarada\nhttps://www.youtube.com/watch?v=ZgbLtbh9q0g"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

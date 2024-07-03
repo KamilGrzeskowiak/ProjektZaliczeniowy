@@ -9,11 +9,19 @@ public class Attack : MonoBehaviour
     public int attackDamage = 10;
     public Transform attackPoint;
     public LayerMask enemyLayers;
+    public AudioClip attackSound;
+    private AudioSource audioSource;
 
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = attackSound; // Przypisz dŸwiêk ataku do AudioSource
+    }
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
         {
+            PlayAttackSound();
             MeleeAttack();
         }
     }
@@ -38,5 +46,12 @@ public class Attack : MonoBehaviour
 
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+    void PlayAttackSound()
+    {
+        if (attackSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(attackSound);
+        }
     }
 }
