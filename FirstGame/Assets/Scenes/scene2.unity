@@ -3780,7 +3780,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2367231213101369532, guid: d6106672666fe5042b800ac5c35563dc, type: 3}
       propertyPath: maxHealth
-      value: 1000
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367231213101369532, guid: d6106672666fe5042b800ac5c35563dc, type: 3}
+      propertyPath: sceneToLoad
+      value: GameOver
       objectReference: {fileID: 0}
     - target: {fileID: 3385245718176920441, guid: d6106672666fe5042b800ac5c35563dc, type: 3}
       propertyPath: rightBoundary

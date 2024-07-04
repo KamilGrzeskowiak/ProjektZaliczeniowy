@@ -5929,6 +5929,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2367231213101369532, guid: d6106672666fe5042b800ac5c35563dc, type: 3}
+      propertyPath: maxHealth
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367231213101369532, guid: d6106672666fe5042b800ac5c35563dc, type: 3}
+      propertyPath: sceneToLoad
+      value: GameOver
+      objectReference: {fileID: 0}
     - target: {fileID: 6568720593047587893, guid: d6106672666fe5042b800ac5c35563dc, type: 3}
       propertyPath: attackSound
       value: 
